@@ -1,0 +1,15 @@
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\bin\Debug\net6.0\Oefening 2.exe
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\bin\Debug\net6.0\Oefening 2.deps.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\bin\Debug\net6.0\Oefening 2.runtimeconfig.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\bin\Debug\net6.0\Oefening 2.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\bin\Debug\net6.0\Oefening 2.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\refint\Oefening 2.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\Oefening 2.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\les3\Oefening 2\obj\Debug\net6.0\ref\Oefening 2.dll

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>assignment6</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment6\Form1.cs" Link="Form1.cs" />
+  </ItemGroup>
+
+</Project>

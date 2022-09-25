@@ -1,0 +1,14 @@
+uren berekenen
+Uren = Seconden / Seconden = 1
+UrenInDigitaal = 3600 - 1 = 3599
+minuten berekenen
+Minuten = UrenInDigitaal / 60 = 3599 / 60 = 59.9 = 60
+Minuten2 = 60 / 1
+MinutenInDigitaal = 60 - 3600  = 0
+
+
+
+
+
+EchteAntwoord = 10:45:40
+

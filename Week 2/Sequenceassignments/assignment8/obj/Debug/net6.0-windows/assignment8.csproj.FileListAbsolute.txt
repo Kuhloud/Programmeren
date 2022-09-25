@@ -1,0 +1,17 @@
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\bin\Debug\net6.0-windows\assignment8.exe
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\bin\Debug\net6.0-windows\assignment8.deps.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\bin\Debug\net6.0-windows\assignment8.runtimeconfig.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\bin\Debug\net6.0-windows\assignment8.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\bin\Debug\net6.0-windows\assignment8.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.Form1.resources
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.csproj.GenerateResource.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\refint\assignment8.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\assignment8.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 2\Sequenceassignments\assignment8\obj\Debug\net6.0-windows\ref\assignment8.dll

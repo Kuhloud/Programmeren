@@ -1,0 +1,15 @@
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\bin\Debug\net6.0\assignment8.exe
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\bin\Debug\net6.0\assignment8.deps.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\bin\Debug\net6.0\assignment8.runtimeconfig.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\bin\Debug\net6.0\assignment8.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\bin\Debug\net6.0\assignment8.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\refint\assignment8.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\assignment8.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 3\Selectionassignment\assignment8\obj\Debug\net6.0\ref\assignment8.dll
