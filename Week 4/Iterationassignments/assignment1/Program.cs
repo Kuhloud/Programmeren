@@ -12,23 +12,35 @@ namespace assignment1
             Thread.CurrentThread.CurrentUICulture = ci;
             Thread.CurrentThread.CurrentCulture = ci;
 
-            // display values
-            Console.Write("Enter a number: ");
-            int randomValue = int.Parse(Console.ReadLine());
-            int amountValue = 0;
+            // initialise values
+            double consoleWrite = 0;
+            double allInputs = 0;
+            double randomValue = 1;
+            
 
-
-            do
-            {
-                amountValue++;
-            }
-            while (randomValue != 0);
+        // calculate average of positive numbers
+           // if input > 0
+            do 
             {
                 Console.Write("Enter a number: ");
-                randomValue = int.Parse(Console.ReadLine());
+                randomValue = double.Parse(Console.ReadLine());
+                if (randomValue > 0)
+                {
+                    consoleWrite++;
+                    allInputs += randomValue;
+                }
+
+            } while (randomValue != 0);
+            
+            // if input = 0
+            if (allInputs == 0)
+            {
+                consoleWrite++;
             }
-            double Average = randomValue / amountValue;
-            Console.Write($"Average of all positive numbers is: {Average:0.00} ");
+
+            // display average
+                double avPositiveNum = allInputs / consoleWrite;
+            Console.Write($"Average of all positive numbers is: {avPositiveNum:0.00} ");
         }
     }
 }
