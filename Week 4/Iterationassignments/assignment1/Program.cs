@@ -1,19 +1,34 @@
-﻿namespace assignment1
+﻿using System.Globalization;
+
+namespace assignment1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // display value
-            Console.WriteLine("Enter a number: ");
-            int randomValue = int.Parse(Console.ReadLine());
 
-            while (randomValue != 0)
+            // set program of culture
+            CultureInfo ci = new CultureInfo("en-US");
+            Thread.CurrentThread.CurrentUICulture = ci;
+            Thread.CurrentThread.CurrentCulture = ci;
+
+            // display values
+            Console.Write("Enter a number: ");
+            int randomValue = int.Parse(Console.ReadLine());
+            int amountValue = 0;
+
+
+            do
             {
-                Console.WriteLine("Enter a number: ");
+                amountValue++;
+            }
+            while (randomValue != 0);
+            {
+                Console.Write("Enter a number: ");
                 randomValue = int.Parse(Console.ReadLine());
             }
-            Console.Write("Average of all positive numbers is: ");
+            double Average = randomValue / amountValue;
+            Console.Write($"Average of all positive numbers is: {Average:0.00} ");
         }
     }
 }
