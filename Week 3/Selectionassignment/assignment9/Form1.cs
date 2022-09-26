@@ -8,38 +8,35 @@ namespace assignment9
         }
         
         private void btnCalc_Click(object sender, EventArgs e)
-        {;
+        {
             // input sport
             int age = int.Parse(txtInput1.Text);
             int membershipDuration = int.Parse(txtInput2.Text);
-            int price = 0;
+            int fee = 0;
 
             // determine value of radioboxes
             if (radFootball.Checked == true)
             {
-                price = 175;
+                fee = 175;
             }
             else if (radHandball.Checked == true)
             {
-                price = 225;
+                fee = 225;
             }
-            else
+            
+            // add discount
+            if (radHandball.Checked == true | radFootball.Checked == true && age >= 40)
             {
-                price = 0;
+                fee -= 25;
             }
 
-            // add discount
-            if (age >= 40 || radHandball.Checked == true & radFootball.Checked == true)
+            if (radHandball.Checked == true | radFootball.Checked == true && membershipDuration >= 10 )
             {
-                price -= 25;
-            }
-            if (membershipDuration >= 10 || radHandball.Checked == true & radFootball.Checked == true)
-            {
-                price -= 20;
+                fee -= 20;
             }
 
             // display fee
-            lblFeeAns.Text = $"€ {price:0.00}";
+            lblFeeAns.Text = $"€ {fee:0.00}";
 
 
 

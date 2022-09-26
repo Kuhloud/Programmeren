@@ -97,7 +97,7 @@
             this.lblFeeAns.Name = "lblFeeAns";
             this.lblFeeAns.Size = new System.Drawing.Size(48, 20);
             this.lblFeeAns.TabIndex = 6;
-            this.lblFeeAns.Text = "€ 0.00";
+            this.lblFeeAns.Text = "€ 0,00";
             // 
             // radFootball
             // 
