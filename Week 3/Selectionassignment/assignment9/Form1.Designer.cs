@@ -147,7 +147,7 @@
             this.Controls.Add(this.txtInput2);
             this.Controls.Add(this.txtInput1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Selection assignment 9";
             this.ResumeLayout(false);
             this.PerformLayout();
 

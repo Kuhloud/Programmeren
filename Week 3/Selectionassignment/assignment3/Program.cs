@@ -13,7 +13,7 @@
             Console.Write("Enter third number: ");
             int ThirdNumber = int.Parse(Console.ReadLine());
 
-            if (ThirdNumber < FirstNumber & ThirdNumber < SecondNumber)
+            if (ThirdNumber < FirstNumber && ThirdNumber < SecondNumber)
             {
                 Console.Write("The third number is the smallest of the three");
             }

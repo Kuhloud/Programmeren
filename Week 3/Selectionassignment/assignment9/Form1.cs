@@ -12,7 +12,7 @@ namespace assignment9
             // input sport
             int age = int.Parse(txtInput1.Text);
             int membershipDuration = int.Parse(txtInput2.Text);
-            int fee = 0;
+            double fee = 0;
 
             // determine value of radioboxes
             if (radFootball.Checked == true)
@@ -25,12 +25,12 @@ namespace assignment9
             }
             
             // add discount
-            if (radHandball.Checked == true | radFootball.Checked == true && age >= 40)
+            if (radHandball.Checked == true | radFootball.Checked == true && age > 40)
             {
                 fee -= 25;
             }
 
-            if (radHandball.Checked == true | radFootball.Checked == true && membershipDuration >= 10 )
+            if (radHandball.Checked == true | radFootball.Checked == true && membershipDuration > 10 )
             {
                 fee -= 20;
             }

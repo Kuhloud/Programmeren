@@ -13,63 +13,53 @@ namespace assignment4
 
             // input numbers
             Console.Write("Enter first number: ");
-            double FirstNumber = double.Parse(Console.ReadLine());
+            int firstNumber = int.Parse(Console.ReadLine());
 
             Console.Write("Enter second number: ");
-            double SecondNumber = double.Parse(Console.ReadLine());
+            int secondNumber = int.Parse(Console.ReadLine());
 
             Console.Write("Enter third number: ");
-            double ThirdNumber = double.Parse(Console.ReadLine());
+            int thirdNumber = int.Parse(Console.ReadLine());
 
             // display sum
-            double sum = FirstNumber + SecondNumber + ThirdNumber;
+            int sum = firstNumber + secondNumber + thirdNumber;
             Console.WriteLine($"sum = {sum}");
 
             // display average
-            double average = (FirstNumber + SecondNumber + ThirdNumber) / 3;
+            double average = (double)sum / 3;
             Console.WriteLine($"average = {average:0.00}");
 
             // display product
-            double product = FirstNumber * SecondNumber * ThirdNumber;
+            int product = firstNumber * secondNumber * thirdNumber;
             Console.WriteLine($"product = {product}");
 
             // display highest and lowest value
-            // first = highest third = lowest
-            if (FirstNumber > SecondNumber & FirstNumber > ThirdNumber & SecondNumber > ThirdNumber)
+            int highestNumber = firstNumber;
+            int lowestNumber = firstNumber;
+            // 
+            if (highestNumber < secondNumber )
             {
-                Console.WriteLine($"highest = {FirstNumber}");
-                Console.WriteLine($"lowest = {ThirdNumber}");
+                highestNumber = secondNumber;
             }
             // second = highest lowest = third
-            else if (SecondNumber > FirstNumber & SecondNumber > ThirdNumber & FirstNumber > ThirdNumber)
+            else if (highestNumber > thirdNumber)
             {
-                Console.WriteLine($"highest = {SecondNumber}");
-                Console.WriteLine($"lowest = {ThirdNumber}");
+                highestNumber = thirdNumber;
             }
             // third = highest lowest = first
-            else if (ThirdNumber > FirstNumber & ThirdNumber > SecondNumber & SecondNumber > FirstNumber)
+            if (lowestNumber > secondNumber)
             {
-                Console.WriteLine($"highest = {ThirdNumber}");
-                Console.WriteLine($"lowest = {FirstNumber}");
+                lowestNumber = secondNumber;
             }
             // second = highest first = lowest
-            else if (SecondNumber > FirstNumber & SecondNumber > ThirdNumber & ThirdNumber > FirstNumber)
+            else if (lowestNumber > thirdNumber)
             {
-                Console.WriteLine($"highest = {SecondNumber}");
-                Console.WriteLine($"lowest = {FirstNumber}");
+                lowestNumber = thirdNumber;
             }
-            // first = highest second = lowest
-            else if (FirstNumber > SecondNumber & FirstNumber > ThirdNumber & SecondNumber < ThirdNumber)
-            {
-                Console.WriteLine($"highest = {FirstNumber}");
-                Console.WriteLine($"lowest = {SecondNumber}");
-            }
-            // third = highest lowest = second
-            else 
-            {
-                Console.WriteLine($"highest = {ThirdNumber}");
-                Console.WriteLine($"lowest = {SecondNumber}");
-            }
+               
+            Console.WriteLine($"highest = {highestNumber}");
+            Console.WriteLine($"lowest = {lowestNumber}");
+            
            
         }
     }

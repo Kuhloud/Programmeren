@@ -47,7 +47,7 @@
             // lblPriceTicket
             // 
             this.lblPriceTicket.AutoSize = true;
-            this.lblPriceTicket.Location = new System.Drawing.Point(12, 167);
+            this.lblPriceTicket.Location = new System.Drawing.Point(12, 144);
             this.lblPriceTicket.Name = "lblPriceTicket";
             this.lblPriceTicket.Size = new System.Drawing.Size(81, 20);
             this.lblPriceTicket.TabIndex = 1;
@@ -56,7 +56,7 @@
             // lblPriceTicketAns
             // 
             this.lblPriceTicketAns.AutoSize = true;
-            this.lblPriceTicketAns.Location = new System.Drawing.Point(258, 167);
+            this.lblPriceTicketAns.Location = new System.Drawing.Point(262, 144);
             this.lblPriceTicketAns.Name = "lblPriceTicketAns";
             this.lblPriceTicketAns.Size = new System.Drawing.Size(48, 20);
             this.lblPriceTicketAns.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // btnCalc
             // 
-            this.btnCalc.Location = new System.Drawing.Point(12, 111);
+            this.btnCalc.Location = new System.Drawing.Point(12, 82);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(331, 42);
             this.btnCalc.TabIndex = 3;
@@ -83,14 +83,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 248);
+            this.ClientSize = new System.Drawing.Size(356, 191);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.lblPriceTicketAns);
             this.Controls.Add(this.lblPriceTicket);
             this.Controls.Add(this.lblAge);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Selection assignment 10";
             this.ResumeLayout(false);
             this.PerformLayout();
 
