@@ -11,11 +11,11 @@ namespace assignment7
         {
             int size = int.Parse(txtInput.Text);
             int X = 0;
-            for (int i = 0; i <= size; i++)
+            for (int i = 0; i <= size; i = 1 + size)
             {
-                for (int j = X; j <= size; j++)
+                for (int j = 0; j <= size; j = j + size)
                 {
-                    lblX.Text = j.ToString("X");
+                    lblX.Text = j.ToString("j");
                 }
             }
         }
