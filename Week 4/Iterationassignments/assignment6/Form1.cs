@@ -11,8 +11,8 @@ namespace assignment6
         {
             double startAmount = double.Parse(txtInput.Text);
             double annualInterest = 1.05;
-            for (double n = 0; n <= 5; n++);
-            double finalCapital = startAmount * annualInterest;
+            double finalCapital = startAmount * Math.Pow(annualInterest, 5);
+
             lblFinalCapitalAns.Text = $"€{finalCapital:0.00}";
         }
     }

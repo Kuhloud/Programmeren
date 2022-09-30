@@ -29,7 +29,7 @@
             } while (randomNumber != 0);
 
             // display sum
-            Console.Write($"Sum of 5th, 10th, 15th ... number is: {sum} ");
+            Console.Write($"Sum of 5th, 10th, 15th, ... number is: {sum} ");
 
         }
     }
