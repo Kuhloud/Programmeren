@@ -64,17 +64,16 @@
             // 
             this.lblX.AutoSize = true;
             this.lblX.Font = new System.Drawing.Font("Courier New", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblX.Location = new System.Drawing.Point(166, 215);
+            this.lblX.Location = new System.Drawing.Point(24, 109);
             this.lblX.Name = "lblX";
-            this.lblX.Size = new System.Drawing.Size(26, 27);
+            this.lblX.Size = new System.Drawing.Size(0, 27);
             this.lblX.TabIndex = 3;
-            this.lblX.Text = "X";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(345, 431);
+            this.ClientSize = new System.Drawing.Size(345, 628);
             this.Controls.Add(this.lblX);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.txtInput);

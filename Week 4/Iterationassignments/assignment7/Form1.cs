@@ -11,10 +11,25 @@ namespace assignment7
         {
             int size = int.Parse(txtInput.Text);
             string pattern ="";
-            for (int i = 0; i <= size; i++)
+            for (int i = 1; i <= size; i++)
             {
                 pattern += "X";
-            } lblX.Text = pattern;
-        }   
+            }
+            pattern += "\n";
+            for (int i = 1; i <= size - 2; i++)
+            {
+                pattern += "X";
+                for (int j = 1; j <= size - 2; j++)
+                {
+                    pattern += " ";
+                }
+            pattern += "X\n";
+            }
+            for (int i = 1; i <= size; i++)
+            {
+                pattern += "X";
+            }
+            lblX.Text = pattern;
+        }
     }
 }
