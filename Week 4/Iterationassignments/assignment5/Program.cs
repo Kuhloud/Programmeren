@@ -9,6 +9,7 @@
             int programEnd = 1;
             do 
             {
+                // calculate leap year
                 Console.Write("Enter a year: ");
                 yearInput = int.Parse(Console.ReadLine());
                 if (yearInput == 0)
@@ -27,6 +28,7 @@
                 {
                     Console.WriteLine($"{yearInput} is not a leap year.");                   
                 } 
+                // display answer
             } while (programEnd != 0);
         } 
     }

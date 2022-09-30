@@ -4,11 +4,15 @@
     {
         static void Main(string[] args)
         {
-            int sjeksch = 1;
-            while (sjeksch > 0 )
+            for (int i = 1; i <= 10; i++)
             {
-                Console.Write("Minecraft sex mod");
-            }
+                for (int j = 0; j <= 10; j++)
+                {
+                    Console.Write("*");
+                }
+
+              Console.WriteLine();
+            } 
         }
     }
 }
