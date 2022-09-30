@@ -10,14 +10,11 @@ namespace assignment7
         private void btnCreate_Click(object sender, EventArgs e)
         {
             int size = int.Parse(txtInput.Text);
-            int X = 0;
-            for (int i = 0; i <= size; i = 1 + size)
+            string pattern ="";
+            for (int i = 0; i <= size; i++)
             {
-                for (int j = 0; j <= size; j = j + size)
-                {
-                    lblX.Text = j.ToString("j");
-                }
-            }
-        }
+                pattern += "X";
+            } lblX.Text = pattern;
+        }   
     }
 }
