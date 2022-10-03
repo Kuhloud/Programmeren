@@ -1,0 +1,15 @@
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\bin\Debug\net6.0\Oefening1.exe
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\bin\Debug\net6.0\Oefening1.deps.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\bin\Debug\net6.0\Oefening1.runtimeconfig.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\bin\Debug\net6.0\Oefening1.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\bin\Debug\net6.0\Oefening1.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\refint\Oefening1.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\Oefening1.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 5\array oefening\Oefening1\obj\Debug\net6.0\ref\Oefening1.dll
