@@ -15,7 +15,6 @@ namespace assignment7
             {
                 pattern += "X";
             }
-            pattern += "\n";
             for (int i = 1; i <= size - 2; i++)
             {
                 pattern += "X";
