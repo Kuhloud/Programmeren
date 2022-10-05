@@ -1,34 +1,33 @@
-﻿namespace assignment3
+﻿
+namespace assignment3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             // initialise values
-            int randomNumber = 0;
+            bool randomNumber = false;
             int consoleWrite = 0;
             int sum = 0;
 
             // calculate every 5th input
-            do
+            while (!randomNumber)
             {
+                Console.Write("Enter a number: ");
+                int numberInput = int.Parse(Console.ReadLine());
                 consoleWrite++;
-                // if it's every 5th input
                 if (consoleWrite % 5 == 0)
                 {
-                    Console.Write("Enter a number: ");
-                    randomNumber = int.Parse(Console.ReadLine());
-                    sum += randomNumber;
+                    sum += numberInput;
                 }
-                // if it's not every 5th input
-                else if (consoleWrite % 5 != 0)
+                else if (numberInput == 0)
                 {
-                    Console.Write("Enter a number: ");
-                    randomNumber = int.Parse(Console.ReadLine());
+                    randomNumber = true;
                 }
-            } while (randomNumber != 0);
+            } 
 
             // display sum
+
             Console.Write($"Sum of 5th, 10th, 15th, ... number is: {sum} ");
 
         }

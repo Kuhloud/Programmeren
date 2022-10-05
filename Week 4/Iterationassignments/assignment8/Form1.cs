@@ -10,22 +10,22 @@ namespace assignment8
         private void btnCalc_Click(object sender, EventArgs e)
         {
             // input number
-            int n = int.Parse(txtInput.Text);
+            int numberInput = int.Parse(txtInput.Text);
 
-            // formula 1
-            int sum1 = 0;
-            for (int i = 1; i <= n; i++)
+            // sum
+            int sum = 0;
+            for (int i = 1; i <= numberInput; i++)
             {
-                sum1 += i;
-                lblFormula1Ans.Text = $"{sum1}";
+                sum += i;
+                lblFormula1Ans.Text = $"{sum}";
             }       
                 
-            // formula 2
-            int sum2 = n * (n + 1) / 2;
-            lblFormula2Ans.Text = $"{sum2}";
+            // formula 
+            int formula = numberInput * (numberInput + 1) / 2;
+            lblFormula2Ans.Text = $"{formula}";
 
 
-            if (sum1 == sum2)
+            if (sum == formula)
             {
                 lblCheck.Text = "The sum and formula are equal.";
             }

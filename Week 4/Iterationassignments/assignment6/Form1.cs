@@ -1,8 +1,9 @@
-namespace assignment6
+﻿namespace assignment6
 {
     public partial class Form1 : Form
     {
-        const double AnnualInterestRate = 1.05;
+        const double AnnualInterestRate = 0.05;
+        const int Years = 5;
         public Form1()
         {
             InitializeComponent();
@@ -10,8 +11,13 @@ namespace assignment6
         private void btnCalc_Click(object sender, EventArgs e)
         {
             double startAmount = double.Parse(txtInput.Text);
-            double finalCapital = startAmount * Math.Pow(AnnualInterestRate, 5);
-            lblFinalCapitalAns.Text = $"�{finalCapital:0.00}";
+            double annualInterest = AnnualInterestRate + 1;
+            double finalCapital = startAmount;
+            lblFinalCapitalAns.Text = $"€{finalCapital:0.00}";
+            for (int i = 0; 1 <= Years; i++)
+            {
+                startAmount = startAmount * annualInterest;
+            }
         }
     }
 }
