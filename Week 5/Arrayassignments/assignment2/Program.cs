@@ -22,7 +22,7 @@
                 }
 
             }
-            int lowestValueCount = 0;
+            int lowestValueCount = 0; // calculate occurence of minimum value
             for (int i = 0; i < element.Length; i++)
             {
                 if (element[i] == minimum)
@@ -30,6 +30,7 @@
                     lowestValueCount++;
                 }
             }
+            // display outputs
             Console.WriteLine($"\nSmallest number = {minimum}");
             Console.WriteLine($"Number of occurence = {lowestValueCount}");
         }  
