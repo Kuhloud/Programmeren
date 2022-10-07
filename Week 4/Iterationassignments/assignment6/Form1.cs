@@ -12,12 +12,12 @@
         {
             double startAmount = double.Parse(txtInput.Text);
             double annualInterest = AnnualInterestRate + 1;
-            double finalCapital = startAmount;
-            lblFinalCapitalAns.Text = $"€{finalCapital:0.00}";
-            for (int i = 0; 1 <= Years; i++)
+            for (int i = 0; i < Years; i++)
             {
                 startAmount = startAmount * annualInterest;
             }
+            lblFinalCapitalAns.Text = $"€{startAmount:0.00}";
         }
+
     }
 }
