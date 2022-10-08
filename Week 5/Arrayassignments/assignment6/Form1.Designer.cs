@@ -69,9 +69,8 @@
             this.lblBefore.AutoSize = true;
             this.lblBefore.Location = new System.Drawing.Point(24, 69);
             this.lblBefore.Name = "lblBefore";
-            this.lblBefore.Size = new System.Drawing.Size(18, 20);
+            this.lblBefore.Size = new System.Drawing.Size(0, 20);
             this.lblBefore.TabIndex = 4;
-            this.lblBefore.Text = "...";
             // 
             // label1
             // 
