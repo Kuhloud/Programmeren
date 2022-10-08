@@ -21,7 +21,7 @@ namespace assignment1
             for (int i = 0; i < element.Length; i++) // display 20 elements
             {
                 consoleWriteLine++;
-                element[i] = new Random().Next(0, 200);
+                element[i] = new Random().Next(200);
                 Console.WriteLine($"Element {i} is {element[i]}");
                 elementSum += element[i];
             }
