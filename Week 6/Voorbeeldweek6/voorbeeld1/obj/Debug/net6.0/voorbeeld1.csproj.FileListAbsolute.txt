@@ -1,0 +1,15 @@
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\bin\Debug\net6.0\voorbeeld1.exe
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\bin\Debug\net6.0\voorbeeld1.deps.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\bin\Debug\net6.0\voorbeeld1.runtimeconfig.json
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\bin\Debug\net6.0\voorbeeld1.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\bin\Debug\net6.0\voorbeeld1.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\refint\voorbeeld1.dll
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.pdb
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\voorbeeld1.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Voorbeeldweek6\voorbeeld1\obj\Debug\net6.0\ref\voorbeeld1.dll
