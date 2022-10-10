@@ -18,30 +18,23 @@ namespace assignment1
             int elementSum = 0;
 
             // display values
+            Random rnd = new Random();
             for (int i = 0; i < element.Length; i++) // display 20 elements
             {
                 consoleWriteLine++;
-                element[i] = new Random().Next(200);
+                element[i] = rnd.Next(0,201);
                 Console.WriteLine($"Element {i} is {element[i]}");
                 elementSum += element[i];
             }
             // calculate average
             double average = (double)elementSum / consoleWriteLine;
-            Console.WriteLine($"\nThe Average is {average:0.00}\n");
+            Console.WriteLine($"The Average is: {average:0.00}");
             
             // display difference
             for (int i = 0; i < element.Length; i++)
             {
-                if (average <= element[i])
-                {
-                    double difference = (double)element[i] - average;
+                    double difference = Math.Abs((double)element[i] - average);
                     Console.WriteLine($"Difference between average and element {i} is {difference:0.00}");
-                }
-                else if (average >= element[i])
-                {
-                    double difference = average - (double)element[i];
-                    Console.WriteLine($"Difference between average and element {i} is {difference:0.00}");
-                }
             }
 
 

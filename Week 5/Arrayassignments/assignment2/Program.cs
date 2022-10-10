@@ -3,14 +3,15 @@
     internal class Program
     {
         const int FixedAmountOfElements = 20;
-        const int MaximumValue = 149;
+        const int MaximumValue = 150;
         const int MinimumValue = 0;
         static void Main(string[] args)
         {
             int[] element = new int[FixedAmountOfElements]; // initialize array
+            Random rnd = new Random();
             for (int i = 0; i < element.Length; i++)
             {
-                element[i] = new Random().Next(MinimumValue, MaximumValue); // randomize from 0 to 149
+                element[i] = rnd.Next(MinimumValue, MaximumValue); // randomize from 0 to 149
                 Console.WriteLine($"Element {i} = {element[i]}");
             }
             int minimum = element[0];

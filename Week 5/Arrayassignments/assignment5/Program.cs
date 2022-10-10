@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        const int MaxInputs = 9;
+        const int MaxInputs = 10;
         static void Main(string[] args)
         {
             int[] allAgeInputs = new int[MaxInputs];
@@ -14,6 +14,11 @@
                 {
                     break;
                 }
+            }
+            Console.Write("PRESCHOOLERS");
+            for (int i = 0; i < allAgeInputs.Length; i++)
+            { 
+                
             }
 
         }
