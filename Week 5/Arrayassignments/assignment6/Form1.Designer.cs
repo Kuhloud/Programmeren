@@ -40,18 +40,20 @@
             // lblTableBefore
             // 
             this.lblTableBefore.AutoSize = true;
+            this.lblTableBefore.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTableBefore.Location = new System.Drawing.Point(24, 37);
             this.lblTableBefore.Name = "lblTableBefore";
-            this.lblTableBefore.Size = new System.Drawing.Size(157, 20);
+            this.lblTableBefore.Size = new System.Drawing.Size(166, 20);
             this.lblTableBefore.TabIndex = 0;
             this.lblTableBefore.Text = "Content table (before)";
             // 
             // lblTableAfter
             // 
             this.lblTableAfter.AutoSize = true;
+            this.lblTableAfter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTableAfter.Location = new System.Drawing.Point(248, 37);
             this.lblTableAfter.Name = "lblTableAfter";
-            this.lblTableAfter.Size = new System.Drawing.Size(144, 20);
+            this.lblTableAfter.Size = new System.Drawing.Size(154, 20);
             this.lblTableAfter.TabIndex = 1;
             this.lblTableAfter.Text = "Content table (after)";
             // 
