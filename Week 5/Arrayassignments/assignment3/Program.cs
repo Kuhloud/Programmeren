@@ -43,12 +43,24 @@ namespace assignment3
                 Console.Write($"Enter grade of {studentNames[i]}: ");
                 studentGrades[i] = int.Parse(Console.ReadLine());
                 sum += studentGrades[i];
-                // calculate max value
-                if (studentGrades[i] > highestGrade)
-                {
-                    studentWithHighestGrade = i;
-                }
             }
+
+            // calculate max value
+            int maximum = studentGrades[0];
+            maximum = studentGrades[0];
+            for (int i = 0; i < studentAmount; i++)
+                if (studentGrades[i] > maximum)
+                {
+                    maximum = studentGrades[i];
+                }
+
+            // calculate student with highest grade
+            highestGrade = maximum;
+            for (int i = 0; i < studentAmount; i++)
+                if (studentGrades[i] == highestGrade)
+                {
+                    greatStudent = $"{studentNames[i]}";
+                }
             // display average
             double averageGrade = (double)sum / studentAmount;
             Console.WriteLine($"\nAverage grade: {averageGrade:0.0}");
@@ -57,8 +69,10 @@ namespace assignment3
             Console.WriteLine($"Student {greatStudent} has highest grade: {highestGrade}\n");
 
             // display overview
-                Console.WriteLine($"Grade for student {studentNames[studentWithHighestGrade]} (course {course}): {studentGrades[i]}");
-
+            for (int i = 0; i < studentAmount; i++)
+            {
+                Console.WriteLine($"Grade for student {studentNames[i]} (course {course}): {studentGrades[i]}");
+            }
         }
     }
 }
