@@ -2,9 +2,13 @@
 {
     internal class Program
     {
-        const int MaxInputs = 19;
+        const int MaxInputs = 20;
         static void Main(string[] args)
         {
+            // initialize values
+            int consoleWrites = 0;
+            int searchValue = 0;
+
             // initialize array
             int[] allInputs = new int[MaxInputs];
 
@@ -19,8 +23,7 @@
                     }  
                 }
             Console.Write("\nEnter a searchvalue: ");
-            int searchValue = int.Parse(Console.ReadLine());
-            int consoleWrites = 0;
+            searchValue = int.Parse(Console.ReadLine());
             for (int i = 0; i < allInputs.Length; i++)
                 if (searchValue == allInputs[i])
                 {

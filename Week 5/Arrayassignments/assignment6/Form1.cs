@@ -7,6 +7,7 @@ namespace assignment6
             InitializeComponent();
         }
         const int MaxElements = 20;
+        Random element = new Random();
         int[] elementBefore = new int[MaxElements];
         int[] elementAfter = new int[MaxElements];
         private void Form1_Load(object sender, EventArgs e)
@@ -15,7 +16,7 @@ namespace assignment6
             string lblElementsBefore = "";
             for (int i = 0; i < MaxElements; i++)
             {
-                elementBefore[i] = new Random().Next(0, 500); // randomizes numbers
+                elementBefore[i] = element.Next(501); // randomizes numbers
                 lblElementsBefore += $"Element {i:00} = {elementBefore[i]}\n"; // adds new label
             }
             // display content table before
