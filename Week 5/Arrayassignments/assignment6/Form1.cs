@@ -14,7 +14,7 @@ namespace assignment6
         {
             // display elements before 
             string lblElementsBefore = "";
-            for (int i = 0; i < MaxElements; i++)
+            for (int i = 0; i < elementBefore.Length; i++)
             {
                 elementBefore[i] = element.Next(501); // randomizes numbers
                 lblElementsBefore += $"Element {i:00} = {elementBefore[i]}\n"; // adds new label
@@ -28,9 +28,8 @@ namespace assignment6
             // input comparison number
             int comparisonNumber = int.Parse(txtInput.Text);
             string lblElementsAfter = "";
-            btnComp.Enabled = false;
 
-            for (int i = 0; i < MaxElements; i++)
+            for (int i = 0; i < elementBefore.Length; i++)
             {
                 // if comparison number is lower than the element
                 if (elementBefore[i] >= comparisonNumber)
@@ -38,12 +37,13 @@ namespace assignment6
                     lblElementsAfter += $"Element {i:00} = {elementBefore[i] + 10}\n"; // adds new label
                 }
                 // if comparison number is higher than the element
-                else if (elementBefore[i] < comparisonNumber)
+                else
                 {
                     lblElementsAfter += $"Element {i:00} = {elementBefore[i] - 5}\n"; // adds new label
                 }
                 // display content table after
                 lblAfter.Text = lblElementsAfter;
+                btnComp.Enabled = false;
             }
         }
     }
