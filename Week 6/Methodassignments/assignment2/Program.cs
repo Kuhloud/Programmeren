@@ -4,50 +4,41 @@
     {
         static void Main(string[] args)
         {
-            int primeNumberCalculation = 0;
-            bool primeNumber = false;
-            while (!primeNumber)
+            int primeNumberCalculation = 1;
+            while (primeNumberCalculation != 0)
             {
                 Console.Write("Enter Number (0 is stop value): ");
                 primeNumberCalculation = int.Parse(Console.ReadLine());
-                if (primeNumberCalculation == 0)
 
-                {
-                    Console.WriteLine("end of program");
-                    primeNumber = true;
-                }
-                else if (primeNumberCalculation < 0)
+                if (primeNumberCalculation < 0)
                 {
                     Console.WriteLine("Negative number entered...");
                 }
-                else if (primeNumberCalculation > 0)
+                else
                 {
-                    if (!primeNumber)
+                    if (primeNumberCalculation != 0 && IsPrimeNumber(primeNumberCalculation))
                     {
                         Console.WriteLine($"{primeNumberCalculation} is a prime number.");
                     }
-                    else
+                    else if (primeNumberCalculation != 0)
                     {
                         Console.WriteLine($"{primeNumberCalculation} is not a prime number.");
                     }
                 }
-            }
-
-
-
-
+                        
+            } Console.WriteLine("end of program");
         }
         static bool IsPrimeNumber(int primeNumberCalculation)
         {
-            bool primeNumber = false;
+            bool primeNumber = true;
             int i = 2;
-            while  ((i < primeNumberCalculation) && !primeNumber)
+            while  ((i < primeNumberCalculation) && primeNumber)
             {
                 if ((primeNumberCalculation % i) == 0)
                 {
-                    primeNumber = true;
+                    primeNumber = false;
                 }
-                else
+                else 
                 {
                     i += 1;
                 }
