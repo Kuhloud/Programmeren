@@ -13,3 +13,18 @@ C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\
 C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.pdb
 C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.genruntimeconfig.cache
 C:\Users\Lucem\OneDrive - Hogeschool Inholland\Documents\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\ref\assignment1.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\bin\Debug\net6.0\assignment1.exe
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\bin\Debug\net6.0\assignment1.deps.json
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\bin\Debug\net6.0\assignment1.runtimeconfig.json
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\bin\Debug\net6.0\assignment1.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\bin\Debug\net6.0\assignment1.pdb
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\refint\assignment1.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.pdb
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\assignment1.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Week 6\Methodassignments\assignment1\obj\Debug\net6.0\ref\assignment1.dll

@@ -14,16 +14,16 @@ namespace assignment1
 
 
             Console.Write("Enter a price: ");
-            double price = double.Parse(Console.ReadLine());
-            float vatPrice = CalculateVat(VatRate, price);
+            float price = float.Parse(Console.ReadLine());
+            float vatPrice = CalculateVat(price);
             double total = vatPrice + price;
             Console.Write($"price: {price:0.00}, VAT: {vatPrice:0.00}, total: {total:0.00}");
         }
 
 
-        static float CalculateVat(double VatRate, double price)
+        static float CalculateVat(float price)
         {
-            float vatPrice = (float)price * (float)VatRate;
+            float vatPrice = price * (float)VatRate;
 
             return vatPrice;
         }
