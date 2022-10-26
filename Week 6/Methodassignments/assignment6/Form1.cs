@@ -23,8 +23,7 @@ namespace assignment6
         private void btnSquareByReferenceOut_Click(object sender, EventArgs e)
         {
             int number = int.Parse(txtInput.Text);
-            int square;
-            SquareByReferenceOut(number, out square);
+            SquareByReferenceOut(number, out int square);
             lblResultAns.Text = $"{square}";
         }
         static void SquareByReferenceOut(int number, out int square)
@@ -41,8 +40,7 @@ namespace assignment6
         }
         static int SquareByValue(int number)
         {
-            number = number * number;
-            return number;
+            return number * number;
         }
     }
 }

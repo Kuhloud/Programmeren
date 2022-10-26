@@ -19,7 +19,7 @@ namespace assignment7
             {
                 convertedDegrees = Celsius2Fahrenheit(degrees);
             }
-            else if (radFah2Cel.Checked == true)
+            else
             {
                 convertedDegrees = Fahrenheit2Celsius(degrees);
             }
@@ -27,19 +27,16 @@ namespace assignment7
         }
         public double Celsius2Kelvin(double degrees)
         {
-            double convertedDegrees = degrees + 273;
-            return convertedDegrees;
+            return degrees + 273;
         }
 
         public double Celsius2Fahrenheit(double degrees)
         {
-            double convertedDegrees = degrees * 9/5 + 32;
-            return convertedDegrees;
+            return degrees * 9/5 + 32;
         }
         public double Fahrenheit2Celsius(double degrees)
         {
-            double convertedDegrees = (degrees - 32) * 5 / 9;
-            return convertedDegrees;
+            return (degrees - 32) * 5/9;
         }
     }
 }

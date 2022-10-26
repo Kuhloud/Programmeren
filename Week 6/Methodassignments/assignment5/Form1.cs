@@ -36,7 +36,7 @@ namespace assignment5
             int firstNumber = int.Parse(txtInput1.Text);
             int secondNumber = int.Parse(txtInput2.Text);
             double answerDivide = DivideCalculation(firstNumber, secondNumber);
-            lblResultAns.Text = $"{answerDivide}";
+            lblResultAns.Text = $"{answerDivide:0.000}";
         }
 
         public int AddCalculation(int firstNumber, int secondNumber)

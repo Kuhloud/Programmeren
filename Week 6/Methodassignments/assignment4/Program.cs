@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int nrOfFullStops, nrOfCommas, nrOfSemiColons;
-            Console.Write("Enter a text>");
+            Console.Write("Enter a text> ");
             string textInput = Console.ReadLine();
             SearchText(textInput, out nrOfFullStops, out nrOfCommas, out nrOfSemiColons);
             Console.Write($"Result: {nrOfFullStops} full stops, {nrOfCommas} commas, {nrOfSemiColons} semi colons");
@@ -16,17 +16,17 @@
             nrOfFullStops = 0;
             nrOfCommas = 0;
             nrOfSemiColons = 0;
-            for (int i = 0; i < textInput.Length; i++)
+            foreach (char character in textInput)
             {
-                if (textInput[i] == '.')
+                if (character == '.')
                 {
                     nrOfFullStops++;
                 }
-                else if (textInput[i] == ',')
+                else if (character == ',')
                 {
                     nrOfCommas++;
                 }
-                if (textInput[i] == ';')
+                else if (character == ';')
                 {
                     nrOfSemiColons++;
                 }
