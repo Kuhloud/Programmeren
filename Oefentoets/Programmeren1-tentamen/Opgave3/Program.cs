@@ -10,8 +10,6 @@
             int wordCount = 0;
             while (!letterCountIsZero && wordCount < maximumWordInput.Length)
             {
-                for (int i = 0; i < maximumWordInput.Length; i++)
-                {
                     Console.Write("Geef een woord: ");
                     string wordInput = Console.ReadLine();
 
@@ -21,7 +19,7 @@
                     }
                     else
                     {
-                        maximumWordInput[i] = wordInput;
+                        maximumWordInput[wordCount] = wordInput;
                         wordCount++;
                     }
                 }
@@ -36,8 +34,10 @@
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                     }
-                    Console.WriteLine($"{maximumWordInput[i]}");
-                } 
+                    Console.WriteLine($"{maximumWordInput[i]}\n");
+                    Console.ResetColor();
+                    Console.WriteLine("einde programma");
+
             }
         }
     }

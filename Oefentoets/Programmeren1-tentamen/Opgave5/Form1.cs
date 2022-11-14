@@ -27,13 +27,13 @@ namespace Opgave5
                 distanceInKilometers = 21;
             }
 
-            int totalSeconds = (int.Parse(txtHours.Text) * SecondsInHours) + (int.Parse(txtMinutes.Text) * SecondsInMinutes + (int.Parse(txtSeconds.Text))
+            int totalSeconds = (int.Parse(txtHours.Text) * SecondsInHours) + (int.Parse(txtMinutes.Text) * SecondsInMinutes) + int.Parse(txtSeconds.Text);
 
                 double hoursWalked = (double)totalSeconds / SecondsInHours;
 
             double speed = distanceInKilometers / hoursWalked;
 
-            speedAnswerLabel.Text = $"{S}
+            lblSpeedAns.Text = $"{speed:0.000}";
         }   
 
     }

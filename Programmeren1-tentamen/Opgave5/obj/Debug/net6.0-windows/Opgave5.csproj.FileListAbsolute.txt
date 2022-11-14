@@ -1,0 +1,17 @@
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\bin\Debug\net6.0-windows\Opgave5.exe
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\bin\Debug\net6.0-windows\Opgave5.deps.json
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\bin\Debug\net6.0-windows\Opgave5.runtimeconfig.json
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\bin\Debug\net6.0-windows\Opgave5.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\bin\Debug\net6.0-windows\Opgave5.pdb
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.csproj.AssemblyReference.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.Form1.resources
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.csproj.GenerateResource.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.AssemblyInfoInputs.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.AssemblyInfo.cs
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.csproj.CoreCompileInputs.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\refint\Opgave5.dll
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.pdb
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\Opgave5.genruntimeconfig.cache
+C:\Users\Lucem\OneDrive\Documenten\Inholland\Programmeren\Programmeren1-tentamen\Opgave5\obj\Debug\net6.0-windows\ref\Opgave5.dll
