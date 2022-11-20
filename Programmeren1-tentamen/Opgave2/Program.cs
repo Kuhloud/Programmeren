@@ -15,9 +15,22 @@
                 }
                 else
                 {
-
+                    int factor = 2;
+                    while (numberInput > 1)
+                    {
+                        if (numberInput % factor == 0)
+                        {
+                            numberInput = numberInput / factor;
+                            Console.Write($"{factor} ");
+                        }
+                        else
+                        {
+                            factor++;
+                        }
+                    }
                 }
             }
+            Console.WriteLine("einde programma");
 
         }
     }

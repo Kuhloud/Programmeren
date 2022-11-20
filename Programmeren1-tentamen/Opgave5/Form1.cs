@@ -17,19 +17,20 @@ namespace Opgave5
             Thread.CurrentThread.CurrentCulture = ci;
             Thread.CurrentThread.CurrentUICulture = ci;
 
-            double price = 0;
+            double totalPrice;
+            double ticketPrice = 0;
             int amount = int.Parse(txtInputAmount.Text);
             int railrunnerAmount = int.Parse(txtInputRailrunners.Text);
             if (radSecondClass.Checked == true && amount != 0)
             {
-                price += SecondClass;
+                ticketPrice += SecondClass;
             }
             else if (radFirstClass.Checked == true && amount != 0)
             {
-                price += FirstClass;
+                ticketPrice += FirstClass;
             }
-            price = (price * amount) + (Railrunner * railrunnerAmount);
-            txtOutputPrice.Text = $"{price:0.00}";
+            totalPrice = (ticketPrice * amount) + (Railrunner * railrunnerAmount);
+            txtOutputPrice.Text = $"{totalPrice:0.00}";
         }
     }
 }

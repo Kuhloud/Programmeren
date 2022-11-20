@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj": {}
+    "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren-1\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj": {
+    "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren-1\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj",
+        "projectUniqueName": "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren-1\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj",
         "projectName": "assignment1",
-        "projectPath": "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj",
+        "projectPath": "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren-1\\Week 6\\Methodassignments\\assignment1\\assignment1.csproj",
         "packagesPath": "C:\\Users\\Lucem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren\\Week 6\\Methodassignments\\assignment1\\obj\\",
+        "outputPath": "C:\\Users\\Lucem\\OneDrive\\Documenten\\Inholland\\Programmeren-1\\Week 6\\Methodassignments\\assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

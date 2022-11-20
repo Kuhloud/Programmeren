@@ -15,18 +15,25 @@ namespace Opgave4
             int[] maxRandomNumbers = new int[MaximumAmountOfRandomNumbers];
             Random randomDividend = new Random();
             Random randomDivisor = new Random();
-            Console.WriteLine("Hello, World!");
-            for (int i = 0; i <maxRandomNumbers.Length; i++)
+            for (int i = 0; i < maxRandomNumbers.Length; i++)
             {
                 deeltal = randomDividend.Next(LowestValue, HighestValueOfDividend);
                 deler = randomDivisor.Next(LowestValue, HighestValueOfDivisor);
-                IntegerDeling(deeltal, deler, out rest);
+                int quotient = IntegerDeling(deeltal, deler, out rest);
+                Console.WriteLine($"{deeltal} / {deler} = {quotient} ({rest})");
             }
+            Console.WriteLine("\neinde programma");
         }
-        static void IntegerDeling(int deeltal, int deler, out int rest)
+        static int IntegerDeling(int deeltal, int deler, out int rest)
         {
-            if (deeltal % deler == 0)
-
+            int quotient = 0;
+            while (deeltal >= deler)
+            {
+                quotient++;
+                deeltal -= deler;
+            }
+            rest = deeltal;
+            return quotient;
         }
     }
 }

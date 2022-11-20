@@ -4,6 +4,7 @@ namespace Opgave1
 {
     internal class Program
     {
+        const double FullCollegePrice = 2209.00;
         static void Main(string[] args)
         {
             CultureInfo ci = new CultureInfo("en-US");
@@ -15,25 +16,26 @@ namespace Opgave1
             string inputNameOfPerson = Console.ReadLine();
             Console.Write($"{inputNameOfPerson}, is dit je eerste bachelor opleiding? ");
             string inputFirstTimeStudying = Console.ReadLine();
-            if (inputFirstTimeStudying == "nee")
+            if (inputFirstTimeStudying == "ja")
             {
-                collegeMoney = 2209.00;
-                Console.Write($"\nhet collegegeld voor dit collegejaar is volledig ({collegeMoney:0.00} euro)");
-            }
-            else if (inputFirstTimeStudying == "ja")
-            {
-                collegeMoney = 1104.50;
+                double halfCollegePrice = FullCollegePrice / 2;
                 Console.Write("is het een lerarenopleiding? ");
                 string teacherStudy = Console.ReadLine();
-                if (teacherStudy == "nee")
+                if (teacherStudy == "ja")
                 {
-
-                    Console.Write($"\nhet collegegeld voor dit collegejaar is de helft ({collegeMoney:0.00}), daarna volledig");
+                    Console.Write($"\nhet collegegeld voor dit collegejaar is de helft ({halfCollegePrice:0.00}), en volgend jaar ook de helft");
                 }
-                else if (teacherStudy == "ja")
+                else
                 {
-                    Console.Write($"\nhet collegegeld voor dit collegejaar is de helft ({collegeMoney:0.00}), en volgend jaar ook de helft");
-                }              
+                    Console.Write($"\nhet collegegeld voor dit collegejaar is de helft ({halfCollegePrice:0.00}), daarna volledig");
+                }
+
+
+                else
+            {
+                Console.Write($"\nhet collegegeld voor dit collegejaar is volledig ({FullCollegePrice:0.00} euro)");
+            }
+           
             }
         }
     }
